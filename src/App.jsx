@@ -9,6 +9,7 @@ const Pipeline = lazy(() => import("./pages/Pipeline"));
 const Clientes = lazy(() => import("./pages/Clientes"));
 const Cilindros = lazy(() => import("./pages/Cilindros"));
 const Servicios = lazy(() => import("./pages/Servicios"));
+const Expedientes = lazy(() => import("./pages/Expedientes"));
 const Ordenes = lazy(() => import("./pages/Ordenes"));
 const Almacen = lazy(() => import("./pages/Almacen"));
 const Trabajadores = lazy(() => import("./pages/Trabajadores"));
@@ -44,6 +45,7 @@ function ModuleRouter({ modulo, setModulo }) {
     clientes: <Clientes />,
     cilindros: <Cilindros />,
     servicios: <Servicios />,
+    expedientes: <Expedientes />,
     ordenes: <Ordenes />,
     cotizaciones: <Placeholder titulo="Cotizaciones" />,
     almacen: <Almacen />,

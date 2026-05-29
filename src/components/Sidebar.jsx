@@ -7,6 +7,7 @@ const NAV = [
     { id: "clientes", icon: "ti-building", label: "Clientes" },
     { id: "cilindros", icon: "ti-settings", label: "Equipos / Cilindros" },
     { id: "servicios", icon: "ti-history", label: "Servicios históricos" },
+    { id: "expedientes", icon: "ti-file-description", label: "Expedientes" },
   ]},
   { group: "Taller", items: [
     { id: "ordenes", icon: "ti-clipboard-list", label: "Órdenes de compra" },
